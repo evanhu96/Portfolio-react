@@ -7,9 +7,9 @@ export default function Footer() {
   return (
     <div>
       {" "}
-      <div class="footer-basic">
+      <div className="footer-basic">
         <footer>
-          <div class="social">
+          <div className="social">
             <a href="https://www.google.com">
               <IonIcon icon={logoInstagram} />
             </a>
@@ -23,24 +23,24 @@ export default function Footer() {
               <IonIcon icon={logoTwitter} />
             </a>
           </div>
-          <ul class="list-inline">
-            <li class="list-inline-item">
+          <ul className="list-inline">
+            <li className="list-inline-item">
               <a href="https://www.google.com">Home</a>
             </li>
-            <li class="list-inline-item">
+            <li className="list-inline-item">
               <a href="https://www.google.com">Services</a>
             </li>
-            <li class="list-inline-item">
+            <li className="list-inline-item">
               <a href="https://www.google.com">About</a>
             </li>
-            <li class="list-inline-item">
+            <li className="list-inline-item">
               <a href="https://www.google.com">Terms</a>
             </li>
-            <li class="list-inline-item">
+            <li className="list-inline-item">
               <a href="https://www.google.com">Privacy Policy</a>
             </li>
           </ul>
-          <p class="copyright">Company Name © 2018</p>
+          <p className="copyright">Company Name © 2018</p>
         </footer>
       </div>
     </div>

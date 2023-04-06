@@ -3,7 +3,7 @@ import '../contact.sass'
 export default function Contact() {
   return (
     <div>
-      <div class="contact-us">
+      <div className="contact-us">
         <form action="#">
           <label for="customerName">
             NAME <em>&#x2a;</em>

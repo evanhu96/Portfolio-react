@@ -1,14 +1,10 @@
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navigation from "./components/Navigation";
-import Quarters from "./components/Quarters";
-import Selfie from "./components/Selfie";
-import { Stack } from "react-bootstrap";
+import "./App.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Cards from "./components/Cards";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
+import "./App.css";
 import Contact from "./components/Contact";
+import Home from "./components/Home";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
