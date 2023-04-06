@@ -10,7 +10,7 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={NavLink} to='/'>Home</Nav.Link>
+            <Nav.Link as={NavLink} to='/portfolio-react/'>Home</Nav.Link>
             <Nav.Link as={NavLink} to='/contact'>Contact
             </Nav.Link>
 
