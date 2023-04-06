@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/Portfolio-react/' element={<Home/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </BrowserRouter>
