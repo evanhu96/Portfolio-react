@@ -8,6 +8,7 @@ export default function SMFooter() {
       <div id="overlay">
         <Stack style={{ fontSize: "25px" }}>
           <Selfie />
+          <div style={{marginTop:'100px'}}>
 
           <h2>About Me</h2>
           <p>
@@ -18,6 +19,7 @@ export default function SMFooter() {
             just a person with a dog who tries to minimize mouse usage in favor
             of keyboard shortcuts.
           </p>
+          </div>
         </Stack>{" "}
         <br />
       </div>
