@@ -2,6 +2,7 @@ import $ from "jquery";
 import React, { useState } from "react";
 import "../App.scss";
 import DropDown from "./Dropdown";
+import petsmart from '../assets/petsmart.png';
 
 export default function Cards() {
   $(".size").on("click", function () {
@@ -17,7 +18,7 @@ export default function Cards() {
     setShowDropdown(false);
   };
   return (
-    <div style={{height:'500px',marginLeft:'200px'}}>
+    <div style={{ height: "500px", marginLeft: "200px" }}>
       <div
         className="container projects"
         style={{
@@ -26,7 +27,7 @@ export default function Cards() {
           justifyContent: "space-between",
         }}
       >
-        <div className="images" style={{height:'500px'}}>
+        <div className="images" style={{ height: "500px" }}>
           <img
             src="https://img.freepik.com/premium-vector/basketball_319667-191.jpg"
             alt="shoe"
@@ -45,11 +46,13 @@ export default function Cards() {
             sports data.
           </p>
           <ul>
-              <li>CI/CD of a fullstack restful api</li>
-              <li>Use of GraphQL and Apollo Servers for unique client side queries</li>
-              <li>Seperation of client and server side api calls</li>
-              <li>basic data analysis concepts</li>
-            </ul>
+            <li>CI/CD of a fullstack restful api</li>
+            <li>
+              Use of GraphQL and Apollo Servers for unique client side queries
+            </li>
+            <li>Seperation of client and server side api calls</li>
+            <li>basic data analysis concepts</li>
+          </ul>
           <div
             className="buttons"
             style={{ display: "flex", flexDirection: "row" }}
@@ -79,7 +82,7 @@ export default function Cards() {
           display: "flex",
           justifyContent: "space-between",
           width: "800px",
-          height:'500px !important',
+          height: "500px !important",
         }}
       >
         <div className="images">
@@ -92,22 +95,22 @@ export default function Cards() {
         <div className="product">
           <p>Fullstack</p>
           <h1>Site-Builder-Pro</h1>
-          <div style={{display:'flex',flexDirection:'column'}}>
+          <div style={{ display: "flex", flexDirection: "column" }}>
             <div>
-            <p className="desc" style={{ fontSize: "14px" }}>
-              With Site-Builder-Pro you can create a professional website in
-              minutes. Simply choose the components you would like to include,
-              and Site-Builder-Pro will do the rest. Once you have created your
-              website, you can remove the build and styles folders and put them
-              into your own react app for further customization.
-            </p>
-            <ul>
-              <li>Web design with wide range of components</li>
-              <li>UI/UX design to make sitebuilding simple</li>
-              <li>HTML/CSS</li>
-              <li>Proficient use of MERN stack</li>
-            </ul>
-          </div>
+              <p className="desc" style={{ fontSize: "14px" }}>
+                With Site-Builder-Pro you can create a professional website in
+                minutes. Simply choose the components you would like to include,
+                and Site-Builder-Pro will do the rest. Once you have created
+                your website, you can remove the build and styles folders and
+                put them into your own react app for further customization.
+              </p>
+              <ul>
+                <li>Web design with wide range of components</li>
+                <li>UI/UX design to make sitebuilding simple</li>
+                <li>HTML/CSS</li>
+                <li>Proficient use of MERN stack</li>
+              </ul>
+            </div>
             <div
               className="buttons"
               style={{ display: "flex", flexDirection: "row" }}
@@ -121,6 +124,62 @@ export default function Cards() {
                 </a>
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="container projects"
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          width: "800px",
+          height: "500px !important",
+        }}
+      >
+        <div className="images" style={{marginTop:'50px'}}>
+          <img
+            src={petsmart}
+            height={250}
+            alt="shoe"
+          />
+        </div>
+
+        <div className="product">
+          <p>FrontEnd</p>
+          <h1>PetSmart Clone</h1>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <div>
+              <p className="desc" style={{ fontSize: "14px" }}>
+                This is a clone of the PetSmart website. It is client side only
+                and uses React for state management. 
+              </p>
+              <ul>
+                <li>UI/UX design to make sitebuilding simple</li>
+                <li>HTML/CSS</li>
+              </ul>
+            </div>
+            <div
+              className="buttons"
+              style={{ display: "flex", flexDirection: "row" }}
+            >
+              <button className="add">
+                <a
+                  href="https://evanhu96.github.io/petSmart/"
+                  style={{ color: "inherit", textDecoration: "none" }}
+                >
+                  Check it out
+                </a>
+              </button>
+              <button className="add">
+                <a
+                  href="https://github.com/evanhu96/petSmart"
+                  style={{ color: "inherit", textDecoration: "none" }}
+                >
+                  Repository
+                </a>
+              </button>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -150,11 +209,11 @@ export default function Cards() {
             post down.
           </p>
           <ul>
-              <li>OAuth client side security</li>
-              <li>client side GraphQL mutations</li>
-              <li>use of bootstrap react components</li>
-              <li>ability to make a fully functional social media application</li>
-            </ul>
+            <li>OAuth client side security</li>
+            <li>client side GraphQL mutations</li>
+            <li>use of bootstrap react components</li>
+            <li>ability to make a fully functional social media application</li>
+          </ul>
           <div
             className="buttons"
             style={{ display: "flex", flexDirection: "row" }}

@@ -13,12 +13,15 @@ export default function Home() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
+          marginBottom:'150px',
           height: "2900px",
         }}
       >
         <Cards />
-        <Footer />
       </div>
+      <span style={{ marginTop: "50px" }}>
+        <Footer />
+      </span>
     </div>
   );
 }
